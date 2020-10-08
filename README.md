@@ -27,7 +27,7 @@ Este é meu primeiro MERN, é composto de três contêineres docker, um para o b
 * HTML
 
 
-## Para rodar este projeto após cloná-lo <a name="para-rodar></a>
+## Para rodar este projeto após cloná-lo <a name="para-rodar"></a>
 
 ### Instalar o docker engine <a name="instalar-o-docker"></a>
 
