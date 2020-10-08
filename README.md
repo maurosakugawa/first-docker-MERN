@@ -70,12 +70,12 @@ uid           [ unknown] Docker Release (CE deb) <docker@docker.com>
 sub   rsa4096 2017-02-22 [S
 ```
 * Adicionando o repositório da última versão estável do docker, supondo que sua arquitetura do SO seja amd de 64 bits:
-** Comando específico para o Ubuntu 18.04 ou Linux Mint Tessa (Para o Linux Mint você precisará da versão de referência do Ubuntu)
+ - Comando específico para o Ubuntu 18.04 ou Linux Mint Tessa (Para o Linux Mint você precisará da versão de referência do Ubuntu)
 ```
 sh
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
 ```
-** Para as versões Ubuntu, você pode substituir o comando específico por um comando genérico
+ - Para as versões Ubuntu, você pode substituir o comando específico por um comando genérico
 ```
 sh
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
